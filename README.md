@@ -1,4 +1,4 @@
-# Visual and Predictive Analysis of Brain Tumors from MRI Using Machine Learning
+# NeuroDetect - Visual and Predictive Analysis of Brain Tumors from MRI Using Machine Learning
 
 ## 📌 Project Overview
 This project focuses on building a machine learning-based system that can analyze MRI scans to detect and classify brain tumors. It leverages a combination of image preprocessing, feature extraction, and classification algorithms to assist in early detection and diagnosis of brain tumors such as gliomas, meningiomas, and pituitary adenomas.
