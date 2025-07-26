@@ -1,9 +1,9 @@
 # NeuroDetect - Visual and Predictive Analysis of Brain Tumors from MRI Using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on building a machine learning-based system that can analyze MRI scans to detect and classify brain tumors. It leverages a combination of image preprocessing, feature extraction, and classification algorithms to assist in early detection and diagnosis of brain tumors such as gliomas, meningiomas, and pituitary adenomas.
 
-## 🗂️ Dataset
+## Dataset
 The dataset used is the Brain Tumor MRI Scan Dataset, which consists of:
 - Positive Class (tumor present): Includes MRI scans labeled with glioma, meningioma, and pituitary tumor images.
 - Negative Class (no tumor): Includes healthy brain MRI scans for baseline comparison.
@@ -11,7 +11,7 @@ These images are used to train, validate, and test machine learning models for c
  
 This dataset is available at https://www.kaggle.com/datasets/praneet0327/brain-tumor-dataset
 
-## ⚙️ Technologies Used
+## Technologies Used
 - Python
 - OpenCV
 - NumPy, Pandas
@@ -19,7 +19,7 @@ This dataset is available at https://www.kaggle.com/datasets/praneet0327/brain-t
 - Matplotlib / Seaborn
 -Jupyter Notebook
 
-## 🧪 Methodology
+## Methodology
 1. Data Preprocessing
 - Image resizing and normalization
 - Data augmentation (optional)
@@ -37,15 +37,15 @@ This dataset is available at https://www.kaggle.com/datasets/praneet0327/brain-t
 - Tumor highlighting using bounding techniques
 - Model performance plots
 
-## 📊 Results
+## Results
 The model achieves high accuracy in differentiating between tumor and non-tumor images. Feature visualization and evaluation metrics are used to validate the model's performance across various scenarios.
 
-## 🧠 Future Work
+## Future Work
 - Integrate deep learning (e.g., CNNs) for improved accuracy.
 - Classify tumor types and severity.
 - Build a web interface or diagnostic app for practical usability.
 
-## 🚀 Getting Started
+## Getting Started
 Clone this repo:
 <pre><code>git clone https://github.com/yourusername/brain-tumor-mri-analysis.git
 cd brain-tumor-mri-analysis</code></pre>
