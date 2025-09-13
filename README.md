@@ -1,6 +1,6 @@
 # NeuroDetect - Visual and Predictive Analysis of Brain Tumors from MRI Using Machine Learning
 
-## Project Overview
+## Overview
 This project focuses on building a machine learning-based system that can analyze MRI scans to detect and classify brain tumors. It leverages a combination of image preprocessing, feature extraction, and classification algorithms to assist in early detection and diagnosis of brain tumors such as gliomas, meningiomas, and pituitary adenomas.
 
 ## Dataset
@@ -17,27 +17,24 @@ This dataset is available at https://www.kaggle.com/datasets/praneet0327/brain-t
 - NumPy, Pandas
 - Scikit-learn
 - Matplotlib / Seaborn
--Jupyter Notebook
+- Jupyter Notebook
 
 ## Methodology
 1. Data Preprocessing
 - Image resizing and normalization
 - Data augmentation (optional)
-
 2. Feature Extraction
 - Grayscale conversion
 - Histogram analysis
 - Edge detection techniques (e.g., Canny)
-
 3. Model Training
 - Models: SVM, Random Forest, KNN
 - Evaluation: Accuracy, Precision, Recall, F1 Score
-
 4. Visualization
 - Tumor highlighting using bounding techniques
 - Model performance plots
 
-## Results
+## Impact
 The model achieves high accuracy in differentiating between tumor and non-tumor images. Feature visualization and evaluation metrics are used to validate the model's performance across various scenarios.
 
 ## Future Work
